@@ -68,10 +68,10 @@ function render(variables = {}) {
           <h2>${role}</h2>
           <h3>${city}, ${country}</h3>
           <ul class="${socialMediaPosition}">
-            <li><a href="https://twitter.com/4geeksacademy">${twitter}<i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://github.com/4geeksacademy">${github}<i class="fab fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/4geeksacademy">${linkedin}<i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/4geeksacademy">${instagram}<i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/${twitter}"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/${github}"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/in/${linkedin}"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://instagram.com/${instagram}"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
